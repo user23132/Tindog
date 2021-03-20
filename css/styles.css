@@ -1,0 +1,176 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    color: white;
+}
+
+#title {
+    background-color: #ff4c68;
+    position:relative;
+}
+
+.container-fluid {
+    padding: 5% 15% 7%;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.image-title {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right:30%;
+}
+
+#features {
+    text-align: center;
+    padding: 7% 15%;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+
+}
+
+.icon-feature {
+    font-size: 3em;
+    color: #f1788a;
+}
+
+h3 {
+    font-weight: 900;
+    padding-top: 4%
+}
+
+.icon-feature:hover {
+    color: #ff4c68;
+}
+
+.feature-box {
+    padding: 7%;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #f1788a;
+    color: white;
+    position:relative;
+}
+
+.testimonial-text {
+
+    line-height: 1.5;
+    font-size: 3rem;
+
+}
+
+.image-testimonials {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #f1788a;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+
+.carousel-item {
+    padding: 5% 17%;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+#cta {
+    color:white;
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 2% 17% 5%;
+}
+
+.cta-buttons {
+    margin:5% 1%; 
+}
+
+#footer {
+    text-align: center;
+    background-color: #fff;
+    padding:6%;
+}
+
+
+.fAwesome {
+    margin-left:0.3%;
+    margin-right:0.3%;
+}
+
+.copyright {
+    padding-top: 1.5%;
+}
+
+
+@media screen and (max-width:1033px)
+{
+    h1 {
+        text-align:center;
+    }
+    .image-title {
+        position:static;
+        transform: rotate(0);
+        width:60%;
+    }
+}
+
+.ctah3 {
+    font-size: 3rem;
+}
